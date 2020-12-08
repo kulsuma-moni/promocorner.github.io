@@ -1,249 +1,740 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>PROMOCORNER TEMPLATE</title>
-	<meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart city</title>
+    <!--=== ALL CSS Here ===-->
     <!--=== Bootstrap ===-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
-        <!--=== Fontawesome icon ===-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"> 
+    <!--=== Fontawesome icon ===-->
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700|Roboto:300,300i,400,400i,500,700,700i&display=swap" rel="stylesheet"> 
-    <!--=== Owl carousel ===-->
-    <link rel="stylesheet" href="assets/css/plugin/owl.carousel.min.css">
-    <!--=== Magnific PopUp ===-->
-    <link rel="stylesheet" href="assets/css/plugin/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!--=== slick slider ===-->
+	<link rel="stylesheet" href="assets/css/plugin/slick.css">
+	<link rel="stylesheet" href="assets/css/plugin/slick-theme.css">
+	<!--=== OWL CAROUSEL ===-->
+	<link rel="stylesheet" href="assets/css/plugin/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/plugin/owl.theme.default.min.css">
+    <!--=== wow animation ===-->
+    <link rel="stylesheet" href="assets//css/plugin/animate.css">
+    <!--=== Custom CSS ===-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-	<!-- HEADER_AREA -->
-	<header>
-		<div class="header_area">
-			<div class="container">
-				<div class="top_bar text-center">
+	  <!-- LOADER AREA START -->
+	  <div class="loader_box">
+		<div class="loading">
+		  <div class="loading__ring">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><path d="M85.5,42c-0.2-0.8-0.5-1.7-0.8-2.5c-0.3-0.9-0.7-1.6-1-2.3c-0.3-0.7-0.6-1.3-1-1.9c0.3,0.5,0.5,1.1,0.8,1.7  c0.2,0.7,0.6,1.5,0.8,2.3s0.5,1.7,0.8,2.5c0.8,3.5,1.3,7.5,0.8,12c-0.4,4.3-1.8,9-4.2,13.4c-2.4,4.2-5.9,8.2-10.5,11.2  c-1.1,0.7-2.2,1.5-3.4,2c-0.5,0.2-1.2,0.6-1.8,0.8s-1.3,0.5-1.9,0.8c-2.6,1-5.3,1.7-8.1,1.8l-1.1,0.1L53.8,84c-0.7,0-1.4,0-2.1,0  c-1.4-0.1-2.9-0.1-4.2-0.5c-1.4-0.1-2.8-0.6-4.1-0.8c-1.4-0.5-2.7-0.9-3.9-1.5c-1.2-0.6-2.4-1.2-3.7-1.9c-0.6-0.3-1.2-0.7-1.7-1.1  l-0.8-0.6c-0.3-0.1-0.6-0.4-0.8-0.6l-0.8-0.6L31.3,76l-0.2-0.2L31,75.7l-0.1-0.1l0,0l-1.5-1.5c-1.2-1-1.9-2.1-2.7-3.1  c-0.4-0.4-0.7-1.1-1.1-1.7l-1.1-1.7c-0.3-0.6-0.6-1.2-0.9-1.8c-0.2-0.5-0.6-1.2-0.8-1.8c-0.4-1.2-1-2.4-1.2-3.7  c-0.2-0.6-0.4-1.2-0.5-1.9c-0.1-0.6-0.2-1.2-0.3-1.8c-0.3-1.2-0.3-2.4-0.4-3.7c-0.1-1.2,0-2.5,0.1-3.7c0.2-1.2,0.3-2.4,0.6-3.5  c0.1-0.6,0.3-1.1,0.4-1.7l0.1-0.8l0.3-0.8c1.5-4.3,3.8-8,6.5-11c0.8-0.8,1.4-1.5,2.1-2.1c0.9-0.9,1.4-1.3,2.2-1.8  c1.4-1.2,2.9-2,4.3-2.8c2.8-1.5,5.5-2.3,7.7-2.8s4-0.7,5.2-0.6c0.6-0.1,1.1,0,1.4,0s0.4,0,0.4,0h0.1c2.7,0.1,5-2.2,5-5  c0.1-2.7-2.2-5-5-5c-0.2,0-0.2,0-0.3,0c0,0-0.2,0.1-0.6,0.1c-0.4,0-1,0-1.8,0.1c-1.6,0.1-4,0.4-6.9,1.2c-2.9,0.8-6.4,2-9.9,4.1  c-1.8,1-3.6,2.3-5.4,3.8C26,21.4,25,22.2,24.4,23c-0.2,0.2-0.4,0.4-0.6,0.6c-0.2,0.2-0.5,0.4-0.6,0.7c-0.5,0.4-0.8,0.9-1.3,1.4  c-3.2,3.9-5.9,8.8-7.5,14.3l-0.3,1l-0.2,1.1c-0.1,0.7-0.3,1.4-0.4,2.1c-0.3,1.5-0.4,2.9-0.5,4.5c0,1.5-0.1,3,0.1,4.5  c0.2,1.5,0.2,3,0.6,4.6c0.1,0.7,0.3,1.5,0.4,2.3c0.2,0.8,0.5,1.5,0.7,2.3c0.4,1.6,1.1,3,1.7,4.4c0.3,0.7,0.7,1.4,1.1,2.1  c0.4,0.8,0.8,1.4,1.2,2.1c0.5,0.7,0.9,1.4,1.4,2s0.9,1.3,1.5,1.9c1.1,1.3,2.2,2.7,3.3,3.5l1.7,1.6c0,0,0.1,0.1,0.1,0.1c0,0,0,0,0,0  c0,0,0,0,0,0l0.1,0.1l0.1,0.1h0.2l0.5,0.4l1,0.7c0.4,0.2,0.6,0.5,1,0.7l1.1,0.6c0.8,0.4,1.4,0.9,2.1,1.2c1.4,0.7,2.9,1.5,4.4,2  c1.5,0.7,3.1,1,4.6,1.5c1.5,0.3,3.1,0.7,4.7,0.8c1.6,0.2,3.1,0.2,4.7,0.2c0.8,0,1.6-0.1,2.4-0.1l1.2-0.1l1.1-0.1  c3.1-0.4,6.1-1.3,8.9-2.4c0.8-0.3,1.4-0.6,2.1-0.9s1.3-0.7,2-1.1c1.3-0.7,2.6-1.7,3.7-2.5c0.5-0.4,1-0.9,1.6-1.3l0.8-0.6l0.2-0.2  c0,0,0.1-0.1,0.1-0.1c0.1-0.1,0,0,0,0v0.1l0.1-0.1l0.4-0.4c0.5-0.5,1-1,1.5-1.5c0.3-0.3,0.5-0.5,0.8-0.8l0.7-0.8  c0.9-1.1,1.8-2.2,2.5-3.3c0.4-0.6,0.7-1.1,1.1-1.7c0.3-0.7,0.6-1.2,0.9-1.8c2.4-4.9,3.5-9.8,3.7-14.4C87.3,49.7,86.6,45.5,85.5,42z"></path></svg>
+		  </div>
+		  <div class="loading__ring">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><path d="M85.5,42c-0.2-0.8-0.5-1.7-0.8-2.5c-0.3-0.9-0.7-1.6-1-2.3c-0.3-0.7-0.6-1.3-1-1.9c0.3,0.5,0.5,1.1,0.8,1.7  c0.2,0.7,0.6,1.5,0.8,2.3s0.5,1.7,0.8,2.5c0.8,3.5,1.3,7.5,0.8,12c-0.4,4.3-1.8,9-4.2,13.4c-2.4,4.2-5.9,8.2-10.5,11.2  c-1.1,0.7-2.2,1.5-3.4,2c-0.5,0.2-1.2,0.6-1.8,0.8s-1.3,0.5-1.9,0.8c-2.6,1-5.3,1.7-8.1,1.8l-1.1,0.1L53.8,84c-0.7,0-1.4,0-2.1,0  c-1.4-0.1-2.9-0.1-4.2-0.5c-1.4-0.1-2.8-0.6-4.1-0.8c-1.4-0.5-2.7-0.9-3.9-1.5c-1.2-0.6-2.4-1.2-3.7-1.9c-0.6-0.3-1.2-0.7-1.7-1.1  l-0.8-0.6c-0.3-0.1-0.6-0.4-0.8-0.6l-0.8-0.6L31.3,76l-0.2-0.2L31,75.7l-0.1-0.1l0,0l-1.5-1.5c-1.2-1-1.9-2.1-2.7-3.1  c-0.4-0.4-0.7-1.1-1.1-1.7l-1.1-1.7c-0.3-0.6-0.6-1.2-0.9-1.8c-0.2-0.5-0.6-1.2-0.8-1.8c-0.4-1.2-1-2.4-1.2-3.7  c-0.2-0.6-0.4-1.2-0.5-1.9c-0.1-0.6-0.2-1.2-0.3-1.8c-0.3-1.2-0.3-2.4-0.4-3.7c-0.1-1.2,0-2.5,0.1-3.7c0.2-1.2,0.3-2.4,0.6-3.5  c0.1-0.6,0.3-1.1,0.4-1.7l0.1-0.8l0.3-0.8c1.5-4.3,3.8-8,6.5-11c0.8-0.8,1.4-1.5,2.1-2.1c0.9-0.9,1.4-1.3,2.2-1.8  c1.4-1.2,2.9-2,4.3-2.8c2.8-1.5,5.5-2.3,7.7-2.8s4-0.7,5.2-0.6c0.6-0.1,1.1,0,1.4,0s0.4,0,0.4,0h0.1c2.7,0.1,5-2.2,5-5  c0.1-2.7-2.2-5-5-5c-0.2,0-0.2,0-0.3,0c0,0-0.2,0.1-0.6,0.1c-0.4,0-1,0-1.8,0.1c-1.6,0.1-4,0.4-6.9,1.2c-2.9,0.8-6.4,2-9.9,4.1  c-1.8,1-3.6,2.3-5.4,3.8C26,21.4,25,22.2,24.4,23c-0.2,0.2-0.4,0.4-0.6,0.6c-0.2,0.2-0.5,0.4-0.6,0.7c-0.5,0.4-0.8,0.9-1.3,1.4  c-3.2,3.9-5.9,8.8-7.5,14.3l-0.3,1l-0.2,1.1c-0.1,0.7-0.3,1.4-0.4,2.1c-0.3,1.5-0.4,2.9-0.5,4.5c0,1.5-0.1,3,0.1,4.5  c0.2,1.5,0.2,3,0.6,4.6c0.1,0.7,0.3,1.5,0.4,2.3c0.2,0.8,0.5,1.5,0.7,2.3c0.4,1.6,1.1,3,1.7,4.4c0.3,0.7,0.7,1.4,1.1,2.1  c0.4,0.8,0.8,1.4,1.2,2.1c0.5,0.7,0.9,1.4,1.4,2s0.9,1.3,1.5,1.9c1.1,1.3,2.2,2.7,3.3,3.5l1.7,1.6c0,0,0.1,0.1,0.1,0.1c0,0,0,0,0,0  c0,0,0,0,0,0l0.1,0.1l0.1,0.1h0.2l0.5,0.4l1,0.7c0.4,0.2,0.6,0.5,1,0.7l1.1,0.6c0.8,0.4,1.4,0.9,2.1,1.2c1.4,0.7,2.9,1.5,4.4,2  c1.5,0.7,3.1,1,4.6,1.5c1.5,0.3,3.1,0.7,4.7,0.8c1.6,0.2,3.1,0.2,4.7,0.2c0.8,0,1.6-0.1,2.4-0.1l1.2-0.1l1.1-0.1  c3.1-0.4,6.1-1.3,8.9-2.4c0.8-0.3,1.4-0.6,2.1-0.9s1.3-0.7,2-1.1c1.3-0.7,2.6-1.7,3.7-2.5c0.5-0.4,1-0.9,1.6-1.3l0.8-0.6l0.2-0.2  c0,0,0.1-0.1,0.1-0.1c0.1-0.1,0,0,0,0v0.1l0.1-0.1l0.4-0.4c0.5-0.5,1-1,1.5-1.5c0.3-0.3,0.5-0.5,0.8-0.8l0.7-0.8  c0.9-1.1,1.8-2.2,2.5-3.3c0.4-0.6,0.7-1.1,1.1-1.7c0.3-0.7,0.6-1.2,0.9-1.8c2.4-4.9,3.5-9.8,3.7-14.4C87.3,49.7,86.6,45.5,85.5,42z"></path></svg>
+		  </div>
+		</div>
+	  </div>
+	  <!-- LOADER AREA END -->
+  <!-- TOP HEADER AREA START -->
+ <section class="top_bar">
+   <div class="container">
+		<div class="row">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-4">
+				<div class="logo">
+					<a href="index.html"><img src="assets/image/logo_1.png" alt="logo"></a>
+				</div>
+			</div>
+			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-8 col-8">
+				<div class="search_box">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search for...">
+						<a href="#">
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2">
+				<div class="header_rt_box">
+					<div class="icons_box ">
+						<div class="wish_list menu_item">
+							<img src="assets/image/header/heart.png" alt="heart">
+							<span class="item_count">0</span>
+						</div>
+						<div class="cart menu_item">
+							<img src="assets/image/header/shopping-cart.png" alt="cart">
+							<span class="item_count">0</span>
+						</div>
+						<div class="notifiy menu_item">
+							<img src="assets/image/header/notification.png" alt="notification">
+							<span class="item_count">0</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+   </div>
+ </section>
+  <!-- TOP HEADER AREA END -->
+<!-- HEADER AREA START-->
+	<header class="header_area">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+				<div class="header_left">
+					<div class="header_left_titel">
+						<div id="nav_icon">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<h3>category</h3>
+					</div>
+					<nav class="left_menu">
+						<ul>
+							<li><a href="#">electronics <i class="fa fa-angle-down"></i></a>
+								<ul class="sub_menu">
+									<li><a href="#">tv</a></li>
+									<li><a href="#">mobile</a></li>
+									<li><a href="#">security cameras</a></li>
+								</ul>
+							</li>
+							<li><a href="#">automotive & motorbike <i class="fa fa-angle-down"></i></a>
+								<ul class="sub_menu">
+									<li><a href="#">interior accessories</a></li>
+									<li><a href="#">interior vehicle care</a></li>
+									<li><a href="#">motor parts & accessories</a></li>
+								</ul>
+							</li>
+							<li><a href="#">women's fashion <i class="fa fa-angle-down"></i></a>
+								<ul class="sub_menu">
+									<li class="sub_item">
+										<a href="#" class="">panjabi</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="">shirts</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="">pant</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">babies & toys <i class="fa fa-angle-down"></i></a>
+								<ul class="sub_menu">
+									<li class="sub_item">
+										<a href="#" class="sub_link">mother & baby</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="sub_link">feeding</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="sub_link">toys & games</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="sub_link">nursery</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">sports & outdoor <i class="fa fa-angle-down"></i></a>
+								<ul class="sub_menu">
+									<li class="sub_item">
+										<a href="#" class="sub_link">cycling</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="sub_link">treadmils</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">home appliances <i class="fa fa-angle-down"></i></a>
+								<ul class="sub_menu">
+									<li class="sub_item">
+										<a href="#" class="sub_link">demo item</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="sub_link">demo item</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">home & lifestyle <i class="fa fa-angle-down"></i></a>
+								<ul class="sub_menu">
+									<li class="sub_item">
+										<a href="#" class="sub_link">demo item</a>
+									</li>
+									<li class="sub_item">
+										<a href="#" class="sub_link">demo item</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col_xl_7 col-lg-7 col-md-7 col-sm-12 col-12">
+				<div class="top_mid_menu">
 					<ul>
-						<li><a href="#"><i class="fas fa-envelope"></i>youremail@gamil.com</a></li>
-						<li><a href="#"><i class="fas fa-phone-alt"></i>+445686531452</a></li>
+						<!-- <li><a href="#">customer care</a></li>
+						<li><a href="#">track my order</a></li>
+						<li><a href="#">gift card</a></li>
+						<li><a href="#">contact us</a></li>
+						<li><a href="#">divisions</a>
+							<ul class="sub_menu">
+								<li><a href="#">dhaka</a></li>
+								<li><a href="#">sylhet</a></li>
+								<li><a href="#">barishal</a></li>
+								<li><a href="#">chittagong</a></li>
+								<li><a href="#">mymensingh</a></li>
+								<li><a href="#">khulna</a></li>
+								<li><a href="#">rajshahi </a></li>
+								<li><a href="#">rangpur </a></li>
+							</ul>
+						</li> -->
+						<li><a href="#">dhaka</a></li>
+						<li><a href="#">sylhet</a></li>
+						<li><a href="#">barishal</a></li>
+						<li><a href="#">chittagong</a></li>
+						<li><a href="#">mymensingh</a></li>
+						<li><a href="#">khulna</a></li>
+						<li><a href="#">rajshahi </a></li>
+						<li><a href="#">rangpur </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col_xl_2 col-lg-2 col-md-2 col-sm-6 col-6 px-0">
+				<div class="top_bar_right">
+					<ul>
+						<li><a href="seller_signin.html" class="top_btn">sell sylcart</a></li>
+						<li><a href="login_registration.html" class="top_btn">log in / signup</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		<navbar class="header_nav">
-          <nav class="navbar navbar-expand-md manu_bar">
-            <div class="container">
-              <a class="navbar-brand logo" href="#"><img src="assets/image/header/navlogo.png" alt="logo"></a>
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-               </button>                                          
-              <div class="collapse navbar-collapse" id="navbarNav">
-	                <ul class="navbar-nav ml-auto">
-		                  <li class="nav-item active"><a class="nav-link" href="#home">home</a></li>
-		                  <li class="nav-item"><a class="nav-link" href="#service">SERVICE</a></li>
-		                  <li class="nav-item"><a class="nav-link" href="#product">product</a></li>
-		                  <li class="nav-item"><a class="nav-link" href="#">screenshot</a></li>
-		                  <li class="nav-item"><a class="nav-link" href="#blog">blog</a></li>
-		                  <li class="nav-item"><a class="nav-link" href="#about">about us</a></li>
-		                  <li class="nav-item"><a class="nav-link" href="#">contact us</a></li>
-	                </ul>
-	                <div class="social_icon f_right">
-						<a href="#"><i class="fab fa-facebook-square"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
-						<a href="#"><i class="fab fa-linkedin-in"></i></a>
-					</div>
-              </div>
-            </div>
-         </nav>
-       </navbar>
+	</div>
 	</header>
-	<!-- <main> -->
-		<!-- SLIDER AREA START -->
-			<div class="slider_area slider_active owl-carousel">
-				<div class="singel_slder">
-					<div class="slider_text">
-						<h2>We Wish Our design And product will Be Your best Choice</h2>
-						<p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using. </p>
-						<button class="btn slider_btn">see more</button>
-					</div>
+<!-- HEADER AREA END-->
+<!-- MOBILE MENU AREA START -->
+  <!--MOBILE TOP HEADER AREA START -->
+  <section class="top_mb_bar">
+	<div class="container">
+		 <div class="row">
+			 <div class="col-md-4 col-sm-4 col-4">
+				 <div class="logo">
+					 <a href="index.html"><img src="assets/image/logo_1.png" alt="logo"></a>
+				 </div>
+			 </div>
+			 <div class="col-md-8 col-sm-8 col-8">
+				<div class="header_rt_box">
+					<ul>
+						<li>
+							<a href="wishlist.html">
+								<div class="wish_list menu_item" data-toggle="tooltip" data-placement="top" title="Wishlist">
+									<img src="assets/image/header/heart.png" alt="heart">
+									<span class="item_count">0</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="shopping_cart.html">
+								<div class="cart menu_item" data-toggle="tooltip" data-placement="top" title="Cart">
+									<img src="assets/image/header/shopping-cart.png" alt="cart">
+									<span class="item_count">0</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="notifiy menu_item" data-toggle="tooltip" data-placement="top" title="Notification">
+									<img src="assets/image/header/notification.png" alt="notification">
+									<span class="item_count">0</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="seller_signin.html">
+								<div class="shopper menu_item" data-toggle="tooltip" data-placement="top" title="Sell Sylcart">
+									<img src="assets/image/header/businessman.png" alt="notification">
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="login_registration.html">
+								<div class="user menu_item" data-toggle="tooltip" data-placement="top" title="login/signup">
+									<img src="assets/image/header/user.png" alt="heart">
+								</div>
+							</a>
+						</li>
+					</ul>
 				</div>
-				<div class="singel_slder">
-					<div class="slider_text">
-						<h2>We Wish Our design And product will Be Your best Choice</h2>
-						<p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using. </p>
-						<button class="btn slider_btn">see more</button>
-					</div>
-				</div>
-				<div class="singel_slder">
-					<div class="slider_text">
-						<h2>We Wish Our design And product will Be Your best Choice</h2>
-						<p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using. </p>
-						<button class="btn slider_btn">see more</button>
-					</div>
-				</div>
-			</div>
-		<!-- SLIDER AREA END -->
-		<!-- SERVICE AREA START -->
-		<div class="service_area" id="service">
-			<div class="container">
-				<div class="section_titel text-center">
-					<h2>our service</h2>
-					<img class="img1" src="assets/image/section/slider2.png" alt="">
-					<img class="img2" src="assets/image/section/section1.png" alt="">
-					<img class="img3" src="assets/image/section/section2.png" alt="">
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="singel_service text-center car re_padding">
-							<img src="assets/image/service/service1.png" alt="service img">
-							<p>home delivery</p>
+			 </div>
+		 </div>
+	</div>
+  </section>
+   <!--MOBILE TOP HEADER AREA END -->
+   <!--MOBILE HEADER AREA START-->
+	<header class="mb_header_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-sm-2 col-3">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn" data-toggle="modal" data-target="#mobile_menu">
+						<i class="fas fa-bars"></i>
+					</button>
+					
+					<!-- Modal -->
+					<div class="modal fade" id="mobile_menu" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<!-- <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							</div> -->
+							<div class="modal-body">
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+									  <a class="nav-link active" id="menu_tab" data-toggle="tab" href="#menu" role="tab" aria-controls="menu" aria-selected="true">menu</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link" id="category_tab" data-toggle="tab" href="#category" role="tab" aria-controls="category" aria-selected="false">category</a>
+									</li>
+								  </ul>
+								  <div class="tab-content" id="myTabContent">
+									<div class="tab-pane show active" id="menu" role="tabpanel" aria-labelledby="menu_tab">
+										<div class="top_mid_menu">
+											<ul>
+												<li><a href="#">customer care</a></li>
+												<li><a href="#">track my order</a></li>
+												<li><a href="#">gift card</a></li>
+												<li><a href="#">contact us</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="category" role="tabpanel" aria-labelledby="category_tab">
+										<nav class="left_menu">
+											<ul>
+												<li><a href="#">electronics <i class="fa fa-angle-down"></i></a>
+													<ul class="sub_menu">
+														<li><a href="#">tv</a></li>
+														<li><a href="#">mobile</a></li>
+														<li><a href="#">security cameras</a></li>
+													</ul>
+												</li>
+												<li><a href="#">automotive & motorbike <i class="fa fa-angle-down"></i></a>
+													<ul class="sub_menu">
+														<li><a href="#">interior accessories</a></li>
+														<li><a href="#">interior vehicle care</a></li>
+														<li><a href="#">motor parts & accessories</a></li>
+													</ul>
+												</li>
+												<li><a href="#">women's fashion <i class="fa fa-angle-down"></i></a>
+													<ul class="sub_menu">
+														<li class="sub_item">
+															<a href="#" class="">panjabi</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="">shirts</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="">pant</a>
+														</li>
+													</ul>
+												</li>
+												<li><a href="#">babies & toys <i class="fa fa-angle-down"></i></a>
+													<ul class="sub_menu">
+														<li class="sub_item">
+															<a href="#" class="sub_link">mother & baby</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="sub_link">feeding</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="sub_link">toys & games</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="sub_link">nursery</a>
+														</li>
+													</ul>
+												</li>
+												<li><a href="#">sports & outdoor <i class="fa fa-angle-down"></i></a>
+													<ul class="sub_menu">
+														<li class="sub_item">
+															<a href="#" class="sub_link">cycling</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="sub_link">treadmils</a>
+														</li>
+													</ul>
+												</li>
+												<li><a href="#">home appliances <i class="fa fa-angle-down"></i></a>
+													<ul class="sub_menu">
+														<li class="sub_item">
+															<a href="#" class="sub_link">demo item</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="sub_link">demo item</a>
+														</li>
+													</ul>
+												</li>
+												<li><a href="#">home & lifestyle <i class="fa fa-angle-down"></i></a>
+													<ul class="sub_menu">
+														<li class="sub_item">
+															<a href="#" class="sub_link">demo item</a>
+														</li>
+														<li class="sub_item">
+															<a href="#" class="sub_link">demo item</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+							</div>
+						</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="singel_service text-center wed re_padding">
-							<img src="assets/image/service/service2.png" alt="">
-							<p>wedding party</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="singel_service text-center list re_padding">
-							<img src="assets/image/service/service3.png" alt="">
-							<p>online order</p>
+				</div>
+				<div class="col-md-10 col-sm-10 col-9">
+					<div class="search_box">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search for...">
+							<a href="#">
+								<i class="fa fa-search"></i>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- SERVICE AREA END -->
-		<!-- PRODUCTS AREA START -->
-		<div class="product_area" id="product">
-			<div class="container">
-					<div class="section_titel text-center">
-						<h2>our products</h2>
-						<img class="img1" src="assets/image/section/slider2.png" alt="">
-						<img class="img2" src="assets/image/section/section1.png" alt="">
-						<img class="img3" src="assets/image/section/section2.png" alt="">
-					</div>
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<div class="singel_product re_padding">
-							<img src="assets/image/products/product1.png" alt="">
-							<p>Full Cotton with nice Striker</p>
-							<button class="btn product_btn">buy now</button>
+		</header>
+	<!--MOBILE HEADER AREA END-->
+<!-- MOBILE MENU AREA END -->
+	<!-- SMART CITY  AREA START -->
+	<section class="smart_city_area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 px-0">
+					<div class="smart_city">
+						<div class="smart_button">
+							<a href="education.html" class="btn edu_btn"><span class="education">education</span><br/><span><i class="fas fa-graduation-cap"></i></span></a>
+							<a href="hospital.html" class="btn hospital_btn"><span class="hospital">hospital</span><br/><span><i class="fas fa-clinic-medical"></i></span></a>
+							<a href="smart_house.html" class="btn home_btn"><span class="home">smart houses</span><br/><span><i class="fas fa-home"></i></span></a>
+							<a href="int_shopping.html" class="btn shopping_btn"><span class="shopping">intelligent shopping</span><br/><span><i class="fas fa-shopping-cart"></i></span></a>
+							<a href="restaurant.html" class="btn restaurant_btn"><span class="restaurant">restaurant</span><br/><span><i class="fas fa-utensils"></i></span></a>
+							<a href="hotel.html" class="btn hotel_btn"><span class="hotel">hotel</span><br/><span><i class="fas fa-hotel"></i></span></a>
+							<!-- <a href="#" class="wifi"><span><i class="fas fa-wifi"></i></span></a> -->
 						</div>
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="singel_product re_padding">
-							<img src="assets/image/products/product2.png" alt="">
-							<p>Full Cotton with cool Color</p>
-							<button class="btn product_btn">buy now</button>
-						</div>
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="singel_product re_padding">
-							<img src="assets/image/products/product3.png" alt="">
-							<p>Full Cotton with warm Color</p>
-							<button class="btn product_btn">buy now</button>
+						<div class="city_bg_img">
+							<img class="city_bg" src="assets/image/smart_city_object/smart_city.png" alt="image">
+							<div class="city_object">
+								<div class="car_1">
+									<!-- <img src="assets/image/smart_city_object/car_1.png" alt="image"> -->
+								</div>
+								<div class="car_2">
+									<img src="assets/image/smart_city_object/car_2.png" alt="image">
+								</div>
+								<div class="car_3">
+									<img src="assets/image/smart_city_object/car_3.png" alt="image">
+								</div>
+								<div class="hospital">
+									<!-- <img src="assets/image/smart_city_object/smart_city_hospital.png" alt="image"> -->
+								</div>
+								<div class="police">
+									<img class="img_1" src="assets/image/smart_city_object/smart_city_police.png" alt="image">
+									<img class="img_2" src="assets/image/smart_city_object/smart_city_public.png" alt="image">
+								</div>
+								<!-- <div class="public">
+									<img src="assets/image/smart_city_object/smart_city_public.png" alt="image">
+								</div> -->
+								<div class="road">
+									<img src="assets/image/smart_city_object/smart_city_road.png" alt="image">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- PRODUCTS AREA END -->
-		<!-- BLOG AREA START -->
-		<div class="blog_area" id="blog">
-			<div class="container">
-				<div class="section_titel text-center">
-					<h2>our blog</h2>
-					<img class="img1" src="assets/image/section/slider2.png" alt="">
-					<img class="img2" src="assets/image/section/section1.png" alt="">
-					<img class="img3" src="assets/image/section/section2.png" alt="">
-				</div>
+	</section>
+	<!-- SMART CITY AREA END -->
+	<!-- CITY FOCUS POINT AREA START -->
+		<section class="city_focus_area" data-background="assets/image/smart_city_object/208-[Converted].png">
+
+		</section>
+	<!-- CITY FOCUS POINT AREA END -->
+
+
+	<!-- SERVICE AREA START -->
+	<section class="service_area">
+		<div class="container">
+			<div class="service_inner_ctn">
 				<div class="row">
-					<div class="col-md-4">
-						<div class="singel_blog re_padding">
-							<div class="blog_img">
-								<img class="blog_1" src="assets/image/blog/blog1.png" alt="blog image">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 p-1">
+						<div class="service_ctn">
+							<div class="service_icon">
+								<a href="#"><img src="assets/image/shipped.png" alt="delivary"></a>
 							</div>
-							<h4>Fun time in your new Sublimated Shirts</h4>
-							<a href="#"><span>16 january 2017</span></a>
-							<button class="btn blog_btn">read now</button>
+							<div class="service_description">
+								<a href="#"><h4>free shipping</h4></a>
+								<p>Lorem Ipsum is not simply random text.</p>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="singel_blog re_padding">
-							<div class="blog_img">
-								<img class="blog_2" src="assets/image/blog/blog2.png" alt="blog image">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 p-1">
+						<div class="service_ctn">
+							<div class="service_icon">
+								<a href="#"><img src="assets/image/24-hours.png" alt="hours"></a>
 							</div>
-							<h4>Fun time in your new Sublimated Shirts</h4>
-							<a href="#"><span>06 july 2019</span></a>
-							<button class="btn blog_btn">read now</button>
+							<div class="service_description">
+								<a href="#"><h4>24/7 coustomer service</h4></a>
+								<p>Lorem Ipsum is not simply random text.</p>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="singel_blog re_padding">
-							<div class="blog_img">
-								<img class="blog_3" src="assets/image/blog/blog3.png" alt="blog image">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 p-1">
+						<div class="service_ctn">
+							<div class="service_icon">
+								<a href="#"><img src="assets/image/promotion.png" alt="offer"></a>
 							</div>
-							<h4>Fun time in your new Sublimated Shirts</h4>
-							<a href="#"><span>25 september 2018</span></a>
-							<button class="btn blog_btn">read now</button>
+							<div class="service_description">
+								<a href="#"><h4>festival offer</h4></a>
+								<p>Lorem Ipsum is not simply random text.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 p-1">
+						<div class="service_ctn last_ctn">
+							<div class="service_icon">
+								<a href="#"><img src="assets/image/verification.png" alt="payment"></a>
+							</div>
+							<div class="service_description">
+								<a href="#"><h4>scure payment</h4></a>
+								<p>Lorem Ipsum is not simply random text.</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- BLOG AREA END -->
-	<!-- </main> -->
+	</section>
+	<!-- SERVICE AREA END -->
+	<!-- OFFER AREA START -->
+	<section class="offer_area section_padding_4">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 firstbanner">
+					<div class="offer_box wow fadeInUp">
+						<a href="#"><img src="assets/image/shopping_center/offer_1.png" alt="offer"></a>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 middlebanner">
+					<div class="offer_box middle_offer_box wow fadeInUp">
+						<a href="#"><img src="assets/image/shopping_center/offer_2.png" alt="offer"></a>
+					</div>
+					<div class="offer_box wow fadeInUp">
+						<a href="#"><img src="assets/image/shopping_center/offer_3.png" alt="offer"></a>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 secondbanner">
+					<div class="offer_box wow fadeInUp">
+						<a href="#"><img src="assets/image/shopping_center/offer_4.png" alt="offer"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- OFFER AREA END -->
+	<!-- NEWSLETTER AREA START -->
+	<section class="newsletter_area section_padding wow fadeInUp">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="newsletter_ctn wow fadeInUp">
+						<h4>Search what's on your mind</h4>
+						<input type="text" placeholder="search" class="form-control">
+						<a href="#" class="btn"><i class="fa fa-search"></i></a>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="newsletter_ctn wow fadeInUp">
+						<h4>Subscribe to our newsletter</h4>
+						<input type="email" placeholder="enter your mail address" class="form-control">
+						<a href="#" class="btn"><i class="far fa-envelope"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- NEWSLETTER AREA START -->
+	<!-- SPONSOR AREA START -->
+	<section class="sponsor_area section_padding">
+		<div class="container">
+			<div class="sponsor_slider">
+				<div class="brand_item">
+				<img src="assets/image/sponsor/client-1.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-2.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-3.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-4.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-5.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-6.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-7.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-8.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-1.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-2.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-3.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-4.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-5.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-6.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-7.png" alt="logo">
+				</div>
+				<div class="brand_item">
+					<img src="assets/image/sponsor/client-8.png" alt="logo">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- SPONSOR AREA END -->	
 	<!-- FOOTER AREA START -->
-	<footer>
-		<div class="footer_area" id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<h4>about us</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+	<section class="footer_area section_padding_2" data-background="assets/image/smart_city_object/2750359.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 px-3 px-lg-3 px-md-0">
+					<div class="fotter_ctn wow fadeInLeft">
+						<div class="footer_titel">
+							<h4>contact us</h4>
+						</div>
+						<div class="footer_links contact_link">
+							<ul>
+								<li><a href="#"><i class="fas fa-headset"></i> (+0214)0 315 215</a></li>
+								<li><a href=""><i class="fas fa-envelope-open-text"></i> help_sylcart@gmail.com</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<h4>contact us</h4>
-						<ul>
-							<li><a href="#"><i class="fas fa-envelope"></i>youremail@gamil.com</a></li>
-							<li><a href="#"><i class="fas fa-phone-alt"></i>+445686531452</a></li>
-						</ul>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+					<div class="fotter_ctn wow fadeInUp">
+						<div class="footer_titel">
+							<h4>customer care</h4>
+						</div>
+						<div class="footer_links">
+							<ul>
+								<li><a href="#">account</a></li>
+								<li><a href="#">returns</a></li>
+								<li><a href="#">help center</a></li>
+								<li><a href="#">track order</a></li>
+								<li><a href="#">privacy policy</a></li>
+								<li><a href="#">terms & conditions</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<h4>follow us</h4>
-						<ul>
-							<li><a href="#"><i class="fab fa-facebook-square"></i>facebook</a></li>
-							<li><a href="#"><i class="fab fa-instagram"></i>instragram</a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i>twetter</a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in"></i>linked in</a></li>
-						</ul>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+					<div class="fotter_ctn wow fadeInUp">
+						<div class="footer_titel">
+							<h4>useful links</h4>
+						</div>
+						<div class="footer_links">
+							<ul>
+								<li><a href="index.html">home</a></li>
+								<li><a href="">blog</a></li>
+								<li><a href="">cart</a></li>
+								<li><a href="">F.A.Q.</a></li>
+								<li><a href="#">about us</a></li>
+								<li><a href="">contact us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+					<div class="fotter_ctn wow fadeInRight">
+						<div class="footer_titel">
+							<h4>get in touch</h4>
+						</div>
+						<div class="footer_links social_media">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="far fa-envelope"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+						<div class="payment_methods">
+							<ul>
+								<li><a href="#" class="payment_1"><img src="assets/image/footer/payment_1.jpg" alt="payment system"></a></li>
+								<li><a href="#" class="payment_2"><img src="assets/image/footer/payment_2.jpg" alt="payment system"></a></li>
+								<li><a href="#" class="payment_3"><img src="assets/image/footer/payment_3.jpg" alt="payment system"></a></li>
+								<li><a href="#" class="payment_4"><img src="assets/image/footer/payment_4.jpg" alt="payment system"></a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="copyright_area text-center">
-			<span>&copy Copyright by</span> <a href="#">promocorner.com 2019</a>
-		</div>
-	</footer>
+	</section>
 	<!-- FOOTER AREA END -->
+   <!--===  Copyright Area start ===-->
+   <section>
+	<div class="copyright_area">
+		<div class="container">
+			<div class="copyright text-center">
+				<p>&copy; Copyright Reserved. <a href="#"> 2020 Sylcart.</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+<!--===  Copyright Area End ===-->
+<!-- Scroll to Top button selector -->
+<a class="to-top"><i class="fas fa-level-up-alt"></i></a>
 
-		<script src="assets/js/jquery-3.4.1.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="assets/js/plugin/jquery.waypoints.min.js"></script>
-        <script type="text/javascript" src="assets/js/plugin/jquery.counterup.min.js"></script>
-        <script type="text/javascript" src="assets/js/plugin/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="assets/js/plugin/jquery.magnific-popup.min.js"></script>
-        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-        <script src="assets/js/plugin/imageloaded.min.js"></script>
 
-        <!--=== All Active ===-->
-        <script type="text/javascript" src="assets/js/style.js"></script>
+
+
+    <!--=== ALL JS Here ===-->
+    <!--=== jQuery 3.4.1 ===-->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<!--=== Bootstrap js ===-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--=== WOW Animation Js===-->
+	<script src="assets/js/plugin/wow.min.js"></script>
+	<script src="assets/js/plugin/owl.carousel.min.js"></script>
+	<script src="assets/js/plugin/slick.js"></script>
+	<script src="assets/js/plugin/jquery.carousel.js"></script>
+    <!--=== to top  js===-->
+    <script src="assets/js/plugin/jquery.toTop.min.js"></script>
+      <!--=== smooth scroll js===-->
+      <script src="assets/js/plugin/smoothscroll.js"></script>
+    <!--=== Custom JS ===-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
