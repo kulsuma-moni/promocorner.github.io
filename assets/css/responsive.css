@@ -1,0 +1,228 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.manu_bar ul li {
+	margin: 0 6px;
+}
+.manu_bar ul li a {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 0;
+}
+.social_icon {
+  margin: 0px 0px 0px 14px;
+  padding: 14px 0px 14px 0px;
+}
+.social_icon a i {
+  font-size: 16px;
+  padding-right: 2px;
+}
+.singel_slder .slider_text h2 {
+  font-size: 30px;
+  margin: 0px 0 50px 0;
+  padding: 0px 272px 0 90px;
+}
+.singel_slder .slider_text p {
+  font-size: 14px;
+}
+.img1 {
+  width: 31%;
+}
+.service_area .img2 {
+  left: 333px;
+}
+.service_area .img3 {
+  right: 323px;
+}
+.product_area .img2 {
+  left: 333px;
+  top: 19%;
+}
+.product_area .img3 {
+  right: 322px;
+  top: 19%;
+}
+.blog_area .img2 {
+  left: 333px;
+}
+.blog_area .img3 {
+  right: 323px;
+}
+.blog_area .singel_blog .blog_img::after {
+	width: 100%;
+}
+.footer_area p {
+  font-size: 14px;
+  margin: 22px 14px 0 80px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+	.navbar-brand.logo {
+  			width: 100px;
+		}
+		.manu_bar ul li {
+		margin: 0 -4px;
+	}
+	.manu_bar ul li a {
+  		font-size: 13px;
+  		line-height: 1.1;
+	}
+	.social_icon {
+  		margin: 0px 0px 0px 4px;
+	}
+		.social_icon a i {
+		font-size: 12px;
+		padding-right: 4px;
+	}
+	.singel_slder .slider_text .slider_btn {
+		  font-size: 20px;
+		  padding: 10px 40px 10px 40px;
+		  margin: 60px 0 0 90px;
+	}
+	.singel_slder .slider_text h2 {
+	  	  font-size: 24px;
+	}
+	.singel_slder .slider_text p {
+  		font-size: 12px;
+  		padding: 0 365px 0 90px;
+	}
+		.img1 {
+		  width: 31%;
+		}
+		.service_area .img2 {
+			  left: 505px;
+			  top: 23%;
+		}
+		.service_area .img3 {
+			  right: 497px;
+			  top: 23%;
+		}
+		.product_area .img2 {
+			  left: 505px;
+			  top: 21%;
+		}
+					.product_area .img3 {
+			  right: 497px;
+			  top: 21%;
+		}
+			.blog_area .img2 {
+			  left: 505px;
+			  top: 22%;
+		}
+			.blog_area .img3 {
+			  right: 497px;
+			  top: 22%;
+		}
+			.blog_area .singel_blog .blog_img::after {
+				width: 100%;
+		}
+			.blog_area .singel_blog h4 {
+			  font-size: 18px;
+		}
+			.blog_area .singel_blog a span {
+			  font-size: 10px;
+			  padding: 0 120px 0px 0;
+		}
+			.footer_area p {
+			  font-size: 12px;
+			  margin: 22px 2px 0 70px;
+		}
+			.footer_area ul li a {
+				font-size: 12px;
+				padding-left: 76px;
+		}
+			.footer_area ul li a i {
+			  margin-right: 7px;
+		}
+			.footer_area h4 {
+			  font-size: 22px;
+			  padding-left: 70px;
+		}
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+		.singel_slder .slider_text h2 {
+	  font-size: 20px;
+	  padding: 0px 283px 0 90px;
+	}
+	.singel_slder .slider_text p {
+	  font-size: 12px;
+	  padding: 0 217px 0 90px;
+	}
+	.singel_slder .slider_text .slider_btn {
+	  font-size: 18px;
+	  padding: 10px 30px 10px 30px;
+	}
+	.re_padding{
+		margin-bottom: 20px;
+	}
+	.img1 {
+	  position: absolute;
+	  left: 30%;
+	  width: 42%;
+	}
+	.service_area .img2 {
+	  left: 415px;
+	  top: 140px;
+	}
+	.service_area .img3 {
+	  right: 402px;
+	  top: 140px;
+	}
+	.product_area .img2 {
+	  left: 414px;
+	  top: 140px;
+	}
+	.product_area .img3 {
+	  right: 402px;
+	  top: 140px;
+	}
+	.product_area .singel_product .product_btn {
+	  font-size: 14px;
+	  padding: 10px 20px 10px 20px;
+	}
+	.product_area .singel_product p {
+	  font-size: 20px;
+	  margin: 10px 0 30px 0;
+	}
+	.blog_area .img2 {
+	  position: absolute;
+	  left: 414px;
+	  top: 140px;
+	}
+	.blog_area .img3 {
+	  position: absolute;
+	  right: 402px;
+	  top: 140px;
+	}
+	.blog_area .singel_blog .blog_img::after {
+		width: 59%;
+	}
+	.blog_area .singel_blog .blog_img {
+		left: 83px;
+	}
+	.blog_area .singel_blog h4 {
+	  font-size: 16px;
+	  margin: 16px 32px 0px 82px;
+	}
+	.blog_area .singel_blog a span {
+	  font-size: 12px;
+	  padding: 0 256px 0px 82px; 
+	}
+	.blog_area .singel_blog .blog_btn {
+	  font-size: 14px;
+	  padding: 8px 20px 8px 20px;
+		margin-left: 82px;
+	}
+	.footer_area h4 {
+	  font-size: 18px;
+	  margin: 0 0 7px 0;
+	}
+	.footer_area {
+		padding: 38px 0 117px 0;
+	}
+	.footer_area p {
+	  font-size: 10px;
+	  margin: 14px 17px 12px 85px;
+	}
+	.footer_area ul li a {
+		font-size: 12px;
+	}
+}
