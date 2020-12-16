@@ -367,35 +367,35 @@ $('.user_13').click(function(){
 		// 	$('.sub_cat_htel').hide();
 		// });
 		// ACCRODION
-		// $('.ziehharmonika').ziehharmonika({
+		$('.ziehharmonika').ziehharmonika({
 
-		// 	// To use a headline tag other than h3, adjust or overwrite ziehharmonika.css as well
-		// 	headline: 'h3',
+			// To use a headline tag other than h3, adjust or overwrite ziehharmonika.css as well
+			headline: 'h3',
 		  
-		// 	// Give headlines a certain prefix, e.g. "♫ My headline"
-		// 	prefix: false,
+			// Give headlines a certain prefix, e.g. "♫ My headline"
+			prefix: false,
 		  
-		// 	// Only 1 accordion can be open at any given time
-		// 	highlander: true,
+			// Only 1 accordion can be open at any given time
+			highlander: true,
 		  
-		// 	// Allow or disallow last open accordion to be closed
-		// 	collapsible: false,
+			// Allow or disallow last open accordion to be closed
+			collapsible: false,
 		  
-		// 	// Arrow down under headline
-		// 	arrow: true,
+			// Arrow down under headline
+			arrow: true,
 		  
-		// 	// Opened/closed icon on the right hand side of the headline (either false or JSON containing symbols or image paths)
-		// 	collapseIcons: {
-		// 	  opened: '&ndash;',
-		// 	  closed: '+'
-		// 	},
+			// Opened/closed icon on the right hand side of the headline (either false or JSON containing symbols or image paths)
+			collapseIcons: {
+			  opened: '&ndash;',
+			  closed: '+'
+			},
 		  
-		// 	// alignment of collapse icon
-		// 	collapseIconsAlign: 'right',
+			// alignment of collapse icon
+			collapseIconsAlign: 'right',
 		  
-		// 	// <a href="https://www.jqueryscript.net/tags.php?/Scroll/">Scroll</a> to opened accordion element
-		// 	scroll: true
+			// <a href="https://www.jqueryscript.net/tags.php?/Scroll/">Scroll</a> to opened accordion element
+			scroll: true
 			
-		//   });
+		  });
 
 })(jQuery);

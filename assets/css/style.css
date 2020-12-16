@@ -7051,4 +7051,87 @@ header.header_area .top_bar_right ul li .top_btn:hover {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .listing_txt .rating ul {
+  margin-right: 80px;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .listing_txt .rating p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .location_map {
+  margin-bottom: 10px;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .location_map ul li a {
+  text-transform: capitalize;
+  color: #161616;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .location_map ul li a i {
+  color: #161616;
+  margin-right: 20px;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item p {
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #161616;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item p span {
+  color: #ffffff;
+  background-color: #33BDA4;
+  padding: 3px 11px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-right: 20px;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .details_btn {
+  text-align: center;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .details_btn a {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1;
+  padding: 6px 20px;
+  background-color: #33BDA4;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 20px;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item .details_btn a:hover {
+  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item:hover {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
 /*# sourceMappingURL=style.css.map */
