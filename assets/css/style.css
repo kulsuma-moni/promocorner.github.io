@@ -5952,7 +5952,7 @@ header.header_area .top_bar_right ul li .top_btn:hover {
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li {
   position: relative;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li:last-child {
@@ -5960,42 +5960,29 @@ header.header_area .top_bar_right ul li .top_btn:hover {
 }
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item {
+  width: 285px;
   margin-bottom: 30px;
-  overflow: hidden;
   background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item .listing_img {
   position: relative;
   margin-bottom: 10px;
-  width: 455px;
-  height: 250px;
-  overflow: hidden;
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-  transition: transform .5s ease, -webkit-transform .5s ease;
-}
-
-.letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item .listing_img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item .listing_img img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transition: -webkit-transform .8s ease;
-  transition: -webkit-transform .8s ease;
-  transition: transform .8s ease;
-  transition: transform .8s ease, -webkit-transform .8s ease;
-}
-
-.letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item .listing_img:hover img {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  height: 184px;
 }
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item .listing_img .img_btn .bage_btn {
@@ -6080,10 +6067,11 @@ header.header_area .top_bar_right ul li .top_btn:hover {
   font-size: 14px;
   color: #33BDA4;
   line-height: 1.5;
+  font-weight: 600;
 }
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item .listing_txt ul li i {
-  margin-right: 6px;
+  margin-right: 3px;
   font-size: 16px;
 }
 
@@ -6099,6 +6087,11 @@ header.header_area .top_bar_right ul li .top_btn:hover {
   -moz-transition: .4s;
   -ms-transition: .4s;
   -o-transition: .4s;
+}
+
+.letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item:hover {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .letest_listing_area .listing_tab_ctn .listings_item_detail .listing_ctn ul li a .listing_item:hover .img_btn .view_icon {
@@ -6351,7 +6344,7 @@ header.header_area .top_bar_right ul li .top_btn:hover {
 
 .house_list_area .house_list .listing_ctn ul li {
   position: relative;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .house_list_area .house_list .listing_ctn ul li:last-child {
@@ -6359,42 +6352,29 @@ header.header_area .top_bar_right ul li .top_btn:hover {
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item {
+  width: 276px;
   margin-bottom: 30px;
-  overflow: hidden;
   background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img {
   position: relative;
   margin-bottom: 10px;
-  width: 420px;
-  height: 250px;
-  overflow: hidden;
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-  transition: transform .5s ease, -webkit-transform .5s ease;
-}
-
-.house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transition: -webkit-transform .8s ease;
-  transition: -webkit-transform .8s ease;
-  transition: transform .8s ease;
-  transition: transform .8s ease, -webkit-transform .8s ease;
-}
-
-.house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img:hover img {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  height: 184px;
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img .img_btn .bage_btn {
@@ -6451,7 +6431,7 @@ header.header_area .top_bar_right ul li .top_btn:hover {
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img .img_bttom .icon span i {
-  margin-right: 5px;
+  margin-right: 2px;
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_txt {
@@ -6479,10 +6459,11 @@ header.header_area .top_bar_right ul li .top_btn:hover {
   font-size: 14px;
   color: #33BDA4;
   line-height: 1.5;
+  font-weight: 600;
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_txt ul li i {
-  margin-right: 6px;
+  margin-right: 2px;
   font-size: 16px;
 }
 
@@ -6498,6 +6479,11 @@ header.header_area .top_bar_right ul li .top_btn:hover {
   -moz-transition: .4s;
   -ms-transition: .4s;
   -o-transition: .4s;
+}
+
+.house_list_area .house_list .listing_ctn ul li a .listing_item:hover {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .house_list_area .house_list .listing_ctn ul li a .listing_item:hover .img_btn .view_icon {
@@ -6952,7 +6938,7 @@ header.header_area .top_bar_right ul li .top_btn:hover {
   color: #161616;
   text-transform: capitalize;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.7;
   margin-bottom: 0px;
 }
 
@@ -7133,5 +7119,13 @@ header.header_area .top_bar_right ul li .top_btn:hover {
 .hotel_list_area .restaurent_list .hotel_listing_ctn .listing_item:hover {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.edu_lis .listing_tab {
+  margin-top: 64px;
+}
+
+.edu_lis .listing_tab .nav .nav-link {
+  line-height: 1.7;
 }
 /*# sourceMappingURL=style.css.map */

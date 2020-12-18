@@ -5575,37 +5575,33 @@ header.header_area{
                     display: inline;
                     li{
                         position: relative;
-                        margin-right: 5px;
+                        margin-right: 2px;
                         &:last-child{
                             margin-right: 0;
                         }
                         
                         a{
                             .listing_item{
+                                width: 285px;
+                                // height: 185px;
                                 margin-bottom: 30px;
-                                overflow: hidden;
                                 background-color: $color2;
+                                border-radius: 5px;
+                                -webkit-border-radius: 5px;
+                                -moz-border-radius: 5px;
+                                -ms-border-radius: 5px;
+                                -o-border-radius: 5px;
                                 .listing_img{
                                     position: relative;
                                     margin-bottom: 10px;
-
-                                    width: 455px;
-                                    height: 250px;
-                                    overflow: hidden;
-                                    transition: transform .5s ease;
-                                    &:hover {
-                                        transform: scale(1.05);
-                                    }
                                     img{
-                                        // width: 455px;
-                                        // height: 250px;
+                                        border-radius: 10px;
+                                        -webkit-border-radius: 10px;
+                                        -moz-border-radius: 10px;
+                                        -ms-border-radius: 10px;
+                                        -o-border-radius: 10px;
                                         width: 100%;
-                                        height: 100%;
-                                        object-fit: cover;
-                                        transition: transform .8s ease;
-                                    }
-                                    &:hover img {
-                                        transform: scale(1.15);
+                                        height: 184px;
                                     }
                                     .img_btn{
                                         .bage_btn{
@@ -5658,7 +5654,7 @@ header.header_area{
                                                 font-size: 20px;
                                                 i{
                                                     margin-right: 5px;
-
+    
                                                 }
                                             }
                                         }
@@ -5686,8 +5682,9 @@ header.header_area{
                                             font-size: 14px;
                                             color: $basic_color;
                                             line-height: 1.5;
+                                            font-weight: 600;
                                             i{
-                                                margin-right: 6px;
+                                                margin-right: 3px;
                                                 font-size: 16px;
                                             }
                                             &:hover{
@@ -5702,12 +5699,14 @@ header.header_area{
                                                 -moz-transition: .4s;
                                                 -ms-transition: .4s;
                                                 -o-transition: .4s;
-}
-
+                                            }
+    
                                         }
                                     }
                                 }
-
+                                &:hover{
+                                    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+                                }  
                                 &:hover .img_btn .view_icon{
                                     display: block;
                                 }
@@ -5715,7 +5714,6 @@ header.header_area{
                                     display: block;
                                 }
                             }
-
                         }
                     }
                 }
@@ -5946,37 +5944,33 @@ header.header_area{
                 display: inline;
                 li{
                     position: relative;
-                    margin-right: 5px;
+                    margin-right: 3px;
                     &:last-child{
                         margin-right: 0;
                     }
                     
                     a{
                         .listing_item{
+                            width: 276px;
+                            // height: 185px;
                             margin-bottom: 30px;
-                            overflow: hidden;
                             background-color: $color2;
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -ms-border-radius: 5px;
+                            -o-border-radius: 5px;
                             .listing_img{
                                 position: relative;
                                 margin-bottom: 10px;
-
-                                width: 420px;
-                                height: 250px;
-                                overflow: hidden;
-                                transition: transform .5s ease;
-                                &:hover {
-                                    transform: scale(1.05);
-                                }
                                 img{
-                                    // width: 455px;
-                                    // height: 250px;
+                                    border-radius: 10px;
+                                    -webkit-border-radius: 10px;
+                                    -moz-border-radius: 10px;
+                                    -ms-border-radius: 10px;
+                                    -o-border-radius: 10px;
                                     width: 100%;
-                                    height: 100%;
-                                    object-fit: cover;
-                                    transition: transform .8s ease;
-                                }
-                                &:hover img {
-                                    transform: scale(1.15);
+                                    height: 184px;
                                 }
                                 .img_btn{
                                     .bage_btn{
@@ -6028,7 +6022,7 @@ header.header_area{
                                             line-height: 1;
                                             font-size: 20px;
                                             i{
-                                                margin-right: 5px;
+                                                margin-right: 2px;
 
                                             }
                                         }
@@ -6057,8 +6051,9 @@ header.header_area{
                                         font-size: 14px;
                                         color: $basic_color;
                                         line-height: 1.5;
+                                        font-weight: 600;
                                         i{
-                                            margin-right: 6px;
+                                            margin-right: 2px;
                                             font-size: 16px;
                                         }
                                         &:hover{
@@ -6078,7 +6073,9 @@ header.header_area{
                                     }
                                 }
                             }
-
+                            &:hover{
+                                box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+                            }  
                             &:hover .img_btn .view_icon{
                                 display: block;
                             }
@@ -6511,7 +6508,7 @@ header.header_area{
                     color: $text_color;
                     text-transform: capitalize;
                     font-size: 16px;
-                    line-height: 1.4;
+                    line-height: 1.7;
                     margin-bottom: 0px;
                 }
                 .rating{
@@ -6700,3 +6697,15 @@ header.header_area{
 }
 }
 // HOTEL FILTER PAGE CSS END
+// EDUCATION PAGE CSS AREA START
+ .edu_lis{
+    .listing_tab{
+        margin-top: 64px;
+        .nav{
+            .nav-link{
+             line-height: 1.7;
+            }
+        }
+    }
+}
+// EDUCATION PAGE CSS AREA END

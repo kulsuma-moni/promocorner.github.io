@@ -363,9 +363,21 @@ $('.user_13').click(function(){
 		$('.hotel_sub_cntrol').click(function(){
 			$('.sub_cat_htel').toggle();
 		});
-		// $('.hotel_sub_cntrol').click(function(){
-		// 	$('.sub_cat_htel').hide();
-		// });
+		$('.edu_sub_cntrol_1').click(function(){
+			$('.sub_cat_htel_1').toggle();
+		});
+		$('.edu_sub_cntrol_2').click(function(){
+			$('.sub_cat_htel_2').toggle();
+		});
+		$('.edu_sub_cntrol_3').click(function(){
+			$('.sub_cat_htel_3').toggle();
+		});
+		$('.edu_sub_cntrol_4').click(function(){
+			$('.sub_cat_htel_4').toggle();
+		});
+		$('.edu_sub_cntrol_5').click(function(){
+			$('.sub_cat_htel_5').toggle();
+		});
 		// ACCRODION
 		$('.ziehharmonika').ziehharmonika({
 
